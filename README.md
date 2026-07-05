@@ -42,7 +42,6 @@ chess-engine-project/
 ├── assets/
 │   └── Images/
 │
-├── requirements.txt
 └── README.md
 ```
 
@@ -155,3 +154,7 @@ Some ideas for extending the project:
 The repository was reorganized from several experimental scripts into the current project structure. Shared assets were consolidated into a single directory, hardcoded file paths were removed, and the training scripts were updated to work across different systems.
 
 There is currently one known issue: generate_dataset.py and engine.py use different versions of the extract_features() function. This needs to be reconciled before generating a new training dataset.
+
+
+# Requiremnet 
+pygame==2.6.1 numpy==2.3.5
